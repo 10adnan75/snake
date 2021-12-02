@@ -11,6 +11,7 @@
   </head>
 
   <body>
+    
     <div class="body" id="body">
     <center>
        	<h1>Snake</h1>
@@ -18,7 +19,8 @@
     </center>  
     </div> 
     
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     
     <div id="score">0</div>    
     <canvas id="snakeboard" width="400" height="400"></canvas>
@@ -32,7 +34,7 @@
       }
       #score {
         text-align: center;
-        font-size: 100px;
+        font-size: 90px;
       }
     </style>
     
@@ -43,6 +45,9 @@
         <a href="https://www.github.com/10adnan75/snake"><img src="https://www.pngarts.com/files/8/Black-Github-Logo-PNG-Image-Background.png" alt="github" style="width: 42px; height: 42px;"></a>
     </center>  
     </div>	
+    
+    <br><br>
+    
   </body>
 
   <script>
@@ -68,7 +73,6 @@
     let dx = 10;
     // Vertical velocity
     let dy = 0;
-    
     
     // Get the canvas element
     const snakeboard = document.getElementById("snakeboard");
